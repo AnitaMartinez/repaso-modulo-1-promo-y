@@ -1,0 +1,12 @@
+.main {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+
+    .article {
+        margin-bottom: 20px;
+
+        &__title {
+            margin-bottom: 10px;
+        }
+    }
+}

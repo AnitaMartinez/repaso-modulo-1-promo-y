@@ -1,0 +1,9 @@
+.container {
+    padding: 10px 15px;
+}
+
+.content {
+    @media(min-width: 768px){
+        display: flex;
+    }
+}

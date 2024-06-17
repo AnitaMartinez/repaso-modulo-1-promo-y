@@ -1,0 +1,25 @@
+.aside {
+    display: flex;
+}
+
+.author {
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    &__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    &__title {
+        margin-bottom: 10px;
+    }
+}
+
+.lists {
+    &__sections {
+        margin-bottom: 30px;
+    }
+}
